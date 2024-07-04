@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Enforce Quality
+name: Quality
 
 # Controls when the workflow will run
 on:
@@ -23,5 +23,5 @@ jobs:
       - name: Enforce Jira Issue Key in Pull Request Title
         uses: ryanvade/enforce-pr-title-style-action@v2.1.1
         with:
-          projectKeys: 'JME'
+          projectKey: 'JME'
           separator: '/'
